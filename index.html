@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Necronomicón</title>
+</head>
+<body>
+  <div class="escenario-mesa">
+    <audio id="audio-ambiente" loop></audio>
+    <audio id="audio-efecto"></audio>
+    <audio id="sonido-pagina"></audio>
+    <audio id="audio-gritos"></audio>
+    <div class="fondo-mesa" aria-hidden="true">
+      <div id="luz-izda" class="luz"></div>
+      <div id="luz-dcha" class="luz"></div>
+    </div>
+    <div class="libro-inclinado">
+      <div id="book">
+        <!-- Portada -->
+        <div id="btn-activar" class="page my-page" data-density="hard">
+          <div class="page-content portada">
+            <div class="ojo" id="ojo-izdo">
+              <span class="brillo-ojo"></span>
+            </div>
+            <div class="ojo" id="ojo-dcho">
+              <span class="brillo-ojo"></span>
+            </div>
+            <img src="./assets/img/portada.png" alt="Portada">
+          </div>
+        </div>
+
+        <!-- Páginas Interiores -->
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_1.png" alt="Página 1">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_2.png" alt="Página 2">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_3.png" alt="Página 3">
+          </div>
+        </div>
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_4.png" alt="Página 4">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_5.png" alt="Página 5">
+          </div>
+        </div>
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_6.png" alt="Página 6">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_7.png" alt="Página 7">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_8.png" alt="Página 8">
+          </div>
+        </div>
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_9.png" alt="Página 9">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_10.png" alt="Página 10">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_11.png" alt="Página 11">
+          </div>
+        </div>
+
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/pagina_12.png" alt="Página 12">
+          </div>
+        </div>
+
+        
+        <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/vacia_izda.png" alt="Página vacia izquierda">
+          </div>
+        </div>
+         <div class="page my-page">
+          <div class="page-content">
+            <img src="./assets/img/vacia_dcha.png" alt="Página vacia derecha">
+          </div>
+        </div>
+        <!-- Contraportada -->
+        <div class="page my-page" data-density="hard">
+          <div class="page-content">
+            <img src="./assets/img/contraportada_dcha.png" alt="Contraportada">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
